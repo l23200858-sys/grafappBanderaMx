@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bandera de México</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Bandera de México</h1>
+
+    <div class="controls">
+
+        <div class="control-box">
+            <label>Esperanza</label>
+            <input type="range" id="greenRange" min="0" max="255" value="128">
+            <p id="greenHex">#008000</p>
+        </div>
+
+        <div class="control-box">
+            <label>Unidad</label>
+            <p class="whiteHex">#FFFFFF</p>
+        </div>
+
+        <div class="control-box">
+            <label>Sangre de nuestros héroes nacionales</label>
+            <input type="range" id="redRange" min="0" max="255" value="128">
+            <p id="redHex">#800000</p>
+        </div>
+
+    </div>
+
+    <div class="flag">
+
+        <div class="stripe green" id="greenStripe"></div>
+
+        <div class="stripe white">
+            <img src="https://i.pinimg.com/474x/25/96/b9/2596b93247def72f96d3788f191ea70e.jpg" 
+                 alt="Escudo de México">
+        </div>
+
+        <div class="stripe red" id="redStripe"></div>
+
+    </div>
+<div style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 20px; color: #333;">
+    <p style="font-weight: 600; font-size: 1.1em; border-bottom: 2px solid #0056b3; display: inline-block; padding-bottom: 5px; margin-bottom: 10px;">
+        Datos de Identificación
+    </p>
+    <p style="line-height: 1.6; margin: 0;">
+        <span style="color: #555;">Nombres:</span> <strong>Lugo Cruz Nancy Jazareth</strong><br>
+        <span style="color: #555;">Número de Control:</span> <strong>23200858</strong>
+    </p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
